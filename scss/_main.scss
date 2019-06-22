@@ -1,0 +1,242 @@
+.for--wrap--white{
+    background-color: #fff;
+}
+.main{
+    overflow: hidden;
+}
+.main--wrap--white{
+    width: 50%;
+    margin-left: 50%;
+    padding: 112px 0 60px 50px;
+    position: relative;
+}
+.white--title{
+    color: #e7e7e7;
+    font-family: $pnbold;
+    font-size: 90px;
+    line-height: 60px;
+    text-transform: uppercase; 
+    padding-bottom: 94px;
+    display: block;
+}
+.for--span-and-number{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 31px;
+}
+.number{
+    color: #000000;
+    font-family: $pnbold;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    border-bottom: 4px solid #5e42b0;
+    border-radius: 2px;
+    margin-right: 8px;
+}
+.span--after-number{
+    color: #c1c1c1;
+    font-family: $pnbold;
+    font-size: 36px;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    display: block;
+}
+.span--text{
+    color: #000000;
+    font-family: $pnregular;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.for--wrap--gray{
+    background-color: #f5f4fa;
+}
+.main--wrap--gray{
+    width: 50%;
+    margin-left: 50%;
+    padding: 64px 0 61px 50px;
+}
+.for--wrap--purpure{
+    background-color: #5e42b0;
+
+}
+.main--wrap--purpure{
+    width: 50%;
+    margin-left: 50%;
+    padding: 91px 0 102px 50px;
+}
+.number-white{
+    border-bottom: 4px #fff solid; 
+    color: #0a0e34;
+}
+.footballer{
+    position: absolute;
+    left: -625px;
+    top: 45px;
+}
+.line--footballer{
+    width: 900px;
+    height: 6px;
+    background-color: #9172e6;
+    transform: rotate(130deg);
+    position: absolute;
+    top: 340px;
+    left: -165px;
+    z-index: 1;
+
+}
+.png--footballer{
+    background-image: url(../images/footballer.png);
+    background-repeat: no-repeat;
+    width: 725px;
+    height: 1105px;
+    z-index: 2;
+    position: relative;
+}
+.plus{
+    background-image: url(../images/2-layers.png);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 26px;
+    position: absolute;
+    left: 65px;
+    top: 115px;
+}
+.main--wrap--2{
+    margin-left: 0;
+    padding-left: 100px;
+}
+.for--wrap--purpure--2{
+    background-color: #0a0e34;
+}
+.span--text--2{
+    color: #ffffff;
+}
+.number-black{
+    color: #9173e6;
+}
+.png--busketballer{
+    background-image: url(../images/buscetballer.png);
+    width: 991px;
+    height: 815px;
+}
+.plus--busk{
+    left: 300px;
+    top: 120px;
+    transform: rotate(180deg)
+}
+.line--busket{
+    position: relative;
+}
+.line--busket--1{
+    width: 500px;
+    height: 6px;
+    background-color: #9172e6;
+    transform: rotate(130deg);
+    position: absolute;
+    top: 570px;
+    left: 80px;
+
+}
+.line--busket--2{
+    width: 410px;
+    height: 6px;
+    background-color: #9172e6;
+    transform: rotate(130deg);
+    position: absolute;
+    top: 215px;
+    right: 0;
+
+}
+.busketballer{
+    position: absolute;
+    right: -870px;
+    top: -30px;
+}
+.my--fotorama{
+    display: none;
+}
+.block--photo{
+    object-fit: cover;
+    max-width: 50%;
+    height: 730px;
+    position: absolute;
+    right: 50%;
+}
+.photo--wrap--abs{
+    position: relative;
+    margin-left: 50%;
+    padding: 247px 0 118px 127px;
+}
+.purpure--block{
+    width: 168px;
+    height: 155px;
+    background-color: #5e42b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 211px;
+    left: -84px;
+
+}
+.span--numer--photo{
+    color: #f5f6f7;
+    font-family: $pnbold;
+    font-size: 24px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    border-bottom: 5px solid #8e7bc8;
+    border-radius: 3px;
+}
+.photo--title{
+    width: 89%;
+    color: #c1c1c1;
+    font-family: $pnbold;
+    font-size: 90px;
+    line-height: 70px;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 119px;
+}
+.photo--text{
+    width: 53%;
+    display: block;
+    color: #000000;
+    font-family: $pnregular;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+    padding-bottom: 87px;
+}
+.line--photo{
+    width: 22px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: #5e42b0;
+}
+.main--photos-wrap--2{
+
+}
+.block--photo--2{
+    left: 50%;
+    right: auto;
+}
+.photo--wrap--abs--2{
+    margin-left: 0;
+    margin-right: 50%;
+    padding: 247px 0 146px 0;
+}
+.purpure--block--2{
+    right: -84px;
+    left: auto;
+}
+.photo--text--3{
+    width: 80%;
+}
+.photo--wrap--abs--3{
+    padding: 248px 0 117px 126px;
+}

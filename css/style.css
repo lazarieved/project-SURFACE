@@ -1,0 +1,1193 @@
+.footer {
+  background-image: url(../images/football.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0f1536;
+  background-position: center;
+}
+
+.top--footer {
+  padding: 54px 30px 300px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  width: 189px;
+  height: 33px;
+  display: block;
+}
+
+.link--top--footer {
+  color: #ffffff;
+  font-family: "Proxima Nova light";
+  font-size: 14px;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+}
+
+.link--top--footer:hover {
+  color: #b1b1b1;
+}
+
+.main--footer {
+  padding: 0 30px 0 30px;
+  position: relative;
+}
+
+.for--main--title {
+  display: flex;
+  flex-direction: column;
+}
+
+.main--title {
+  color: #ffffff;
+  font-family: "Proxima Nova bold";
+  font-size: 83px;
+  line-height: 83px;
+  text-transform: uppercase;
+  letter-spacing: 4.96px;
+  z-index: 3;
+}
+
+.main--title--2 {
+  padding-left: 460px;
+  z-index: 1;
+  letter-spacing: 4.5px;
+}
+
+.main--title-line {
+  width: 330px;
+  height: 7px;
+  background-color: #5e42b0;
+  position: absolute;
+  left: 371px;
+  top: 70px;
+  transform: rotate(120deg);
+  z-index: 2;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link--nav {
+  text-decoration: none;
+  color: #9071ea;
+  font-family: "Proxima Nova light";
+  font-size: 14px;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  margin-right: 50px;
+}
+
+.link--nav:last-child {
+  margin-right: 20px;
+}
+
+.link--nav:hover {
+  color: #6751a8;
+}
+
+.main--footer--for--button {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 110px;
+  padding-top: 181px;
+}
+
+.apple--button {
+  margin-right: 50px;
+  width: 20%;
+}
+
+.android--button {
+  width: 20%;
+}
+
+.apple--android--button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 16px 24px #0a0e34;
+  background-color: #5e42b0;
+  color: #ffffff;
+  font-family: "Proxima Nova light";
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  position: relative;
+  padding: 26px 0 25px 121px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.icon-apple {
+  font-size: 50px;
+  line-height: 50px;
+  position: absolute;
+  left: 60px;
+  top: 8px;
+}
+
+.icon-android {
+  font-size: 42px;
+  line-height: 42px;
+  position: absolute;
+  left: 55px;
+  top: 17px;
+}
+
+.app--google-store {
+  font-family: "Proxima Nova - Semibold";
+  display: block;
+}
+
+.for--wrap--white {
+  background-color: #fff;
+}
+
+.main {
+  overflow: hidden;
+}
+
+.main--wrap--white {
+  width: 50%;
+  margin-left: 50%;
+  padding: 112px 0 60px 50px;
+  position: relative;
+}
+
+.white--title {
+  color: #e7e7e7;
+  font-family: "Proxima Nova bold";
+  font-size: 90px;
+  line-height: 60px;
+  text-transform: uppercase;
+  padding-bottom: 94px;
+  display: block;
+}
+
+.for--span-and-number {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 31px;
+}
+
+.number {
+  color: #000000;
+  font-family: "Proxima Nova bold";
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  border-bottom: 4px solid #5e42b0;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.span--after-number {
+  color: #c1c1c1;
+  font-family: "Proxima Nova bold";
+  font-size: 36px;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  display: block;
+}
+
+.span--text {
+  color: #000000;
+  font-family: "Proxima Nova regular";
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.for--wrap--gray {
+  background-color: #f5f4fa;
+}
+
+.main--wrap--gray {
+  width: 50%;
+  margin-left: 50%;
+  padding: 64px 0 61px 50px;
+}
+
+.for--wrap--purpure {
+  background-color: #5e42b0;
+}
+
+.main--wrap--purpure {
+  width: 50%;
+  margin-left: 50%;
+  padding: 91px 0 102px 50px;
+}
+
+.number-white {
+  border-bottom: 4px #fff solid;
+  color: #0a0e34;
+}
+
+.footballer {
+  position: absolute;
+  left: -625px;
+  top: 45px;
+}
+
+.line--footballer {
+  width: 900px;
+  height: 6px;
+  background-color: #9172e6;
+  transform: rotate(130deg);
+  position: absolute;
+  top: 340px;
+  left: -165px;
+  z-index: 1;
+}
+
+.png--footballer {
+  background-image: url(../images/footballer.png);
+  background-repeat: no-repeat;
+  width: 725px;
+  height: 1105px;
+  z-index: 2;
+  position: relative;
+}
+
+.plus {
+  background-image: url(../images/2-layers.png);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 26px;
+  position: absolute;
+  left: 65px;
+  top: 115px;
+}
+
+.main--wrap--2 {
+  margin-left: 0;
+  padding-left: 100px;
+}
+
+.for--wrap--purpure--2 {
+  background-color: #0a0e34;
+}
+
+.span--text--2 {
+  color: #ffffff;
+}
+
+.number-black {
+  color: #9173e6;
+}
+
+.png--busketballer {
+  background-image: url(../images/buscetballer.png);
+  width: 991px;
+  height: 815px;
+}
+
+.plus--busk {
+  left: 300px;
+  top: 120px;
+  transform: rotate(180deg);
+}
+
+.line--busket {
+  position: relative;
+}
+
+.line--busket--1 {
+  width: 500px;
+  height: 6px;
+  background-color: #9172e6;
+  transform: rotate(130deg);
+  position: absolute;
+  top: 570px;
+  left: 80px;
+}
+
+.line--busket--2 {
+  width: 410px;
+  height: 6px;
+  background-color: #9172e6;
+  transform: rotate(130deg);
+  position: absolute;
+  top: 215px;
+  right: 0;
+}
+
+.busketballer {
+  position: absolute;
+  right: -870px;
+  top: -30px;
+}
+
+.my--fotorama {
+  display: none;
+}
+
+.block--photo {
+  object-fit: cover;
+  max-width: 50%;
+  height: 730px;
+  position: absolute;
+  right: 50%;
+}
+
+.photo--wrap--abs {
+  position: relative;
+  margin-left: 50%;
+  padding: 247px 0 118px 127px;
+}
+
+.purpure--block {
+  width: 168px;
+  height: 155px;
+  background-color: #5e42b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 211px;
+  left: -84px;
+}
+
+.span--numer--photo {
+  color: #f5f6f7;
+  font-family: "Proxima Nova bold";
+  font-size: 24px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  border-bottom: 5px solid #8e7bc8;
+  border-radius: 3px;
+}
+
+.photo--title {
+  width: 89%;
+  color: #c1c1c1;
+  font-family: "Proxima Nova bold";
+  font-size: 90px;
+  line-height: 70px;
+  text-transform: uppercase;
+  display: block;
+  padding-bottom: 119px;
+}
+
+.photo--text {
+  width: 53%;
+  display: block;
+  color: #000000;
+  font-family: "Proxima Nova regular";
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1.2px;
+  padding-bottom: 87px;
+}
+
+.line--photo {
+  width: 22px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: #5e42b0;
+}
+
+.block--photo--2 {
+  left: 50%;
+  right: auto;
+}
+
+.photo--wrap--abs--2 {
+  margin-left: 0;
+  margin-right: 50%;
+  padding: 247px 0 146px 0;
+}
+
+.purpure--block--2 {
+  right: -84px;
+  left: auto;
+}
+
+.photo--text--3 {
+  width: 80%;
+}
+
+.photo--wrap--abs--3 {
+  padding: 248px 0 117px 126px;
+}
+
+.real--footer {
+  background-image: url(../images/photo-1417716226287-2f8cd2e80274.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0f1536;
+  background-position: center;
+  padding: 229px 0 0 0;
+}
+
+.for--main--block--footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.block--whith--logo {
+  background-image: url(../images/Artwork.png);
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 137px;
+  margin-right: 36px;
+  margin-bottom: 151px;
+}
+
+.block--whith--text--foot {
+  position: relative;
+}
+
+.span--main--title {
+  color: #ffffff;
+  font-family: "Proxima Nova bold";
+  font-size: 90px;
+  line-height: 70px;
+  text-transform: uppercase;
+  letter-spacing: 4.96px;
+  display: block;
+  padding: 8px 0 10px 0;
+  z-index: 3;
+  position: relative;
+}
+
+.text--footer {
+  color: #a496ca;
+  font-family: "Proxima Nova bold";
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  z-index: 3;
+  position: relative;
+}
+
+.line--foot {
+  width: 200px;
+  height: 5px;
+  background-color: #9172e6;
+  transform: rotate(130deg);
+  position: absolute;
+  top: 42px;
+  left: -2px;
+  z-index: 1;
+}
+
+.line--foot--2 {
+  width: 400px;
+  left: 310px;
+  z-index: 1;
+}
+
+.main--footer--for--button--2 {
+  padding-top: 0;
+  padding-bottom: 197px;
+}
+
+.last--footer {
+  background-color: #0a1133b2;
+  padding: 71px 0 70px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo--footer {
+  margin-left: 50px;
+  margin-right: 141px;
+}
+
+.icon--footer {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 30px;
+  margin-right: 35px;
+}
+
+.icon--footer:last-child {
+  margin-right: 0;
+}
+
+.cutc {
+  margin-right: 60px;
+}
+
+.footer-link {
+  color: #ffffff;
+  font-family: "Proxima Nova regular";
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.span--slash {
+  padding: 0 5px 0 5px;
+}
+
+.container {
+  max-width: 1540px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+@media (max-width: 1600px) {
+  .main--title {
+    font-size: 78px;
+    line-height: 78px;
+  }
+
+  .main--title--2 {
+    padding-left: 0;
+  }
+
+  .apple--android--button {
+    padding-left: 100px;
+  }
+
+  .icon-apple {
+    left: 50px;
+  }
+
+  .icon-android {
+    left: 50px;
+  }
+
+  .main--wrap--white {
+    width: 46%;
+  }
+
+  .main--wrap--gray {
+    width: 47%;
+  }
+
+  .main--wrap--purpure {
+    width: 45%;
+  }
+
+  .my--fotorama {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .top--footer {
+    padding: 54px 0 194px 0;
+  }
+
+  .main--title {
+    font-size: 64px;
+    line-height: 64px;
+  }
+
+  .main--title--2 {
+    padding-left: 108px;
+    letter-spacing: 3.2px;
+    z-index: 3;
+  }
+
+  .for--main--title {
+    padding-left: 69px;
+    padding-bottom: 184px;
+  }
+
+  .main--title-line {
+    left: 34%;
+    top: 92px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .link--nav {
+    font-size: 16px;
+  }
+
+  .apple--button {
+    width: 42%;
+  }
+
+  .android--button {
+    width: 42%;
+  }
+
+  .apple--android--button {
+    padding: 26px 0 26px 110px;
+  }
+
+  .main--wrap--white {
+    width: 58%;
+    margin-left: 35%;
+    padding-top: 82px;
+    padding-left: 20px;
+    padding-bottom: 73px;
+  }
+
+  .png--footballer {
+    background-image: url(../images/768-foot.png);
+    width: 497px;
+    height: 699px;
+  }
+
+  .footballer {
+    left: -440px;
+    top: 100px;
+  }
+
+  .line--footballer {
+    top: 359px;
+    left: -346px;
+  }
+
+  .white--title {
+    padding-bottom: 59px;
+  }
+
+  .main--wrap--gray {
+    width: 58%;
+    margin-left: 35%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 38px;
+  }
+
+  .main--wrap--purpure {
+    width: 58%;
+    margin-left: 35%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 38px;
+  }
+
+  .main--wrap--2 {
+    margin-left: 0;
+    padding: 80px 0 17px 29px;
+  }
+
+  .png--busketballer {
+    background-image: url(../images/768-busk.png);
+    width: 690px;
+    height: 565px;
+  }
+
+  .busketballer {
+    right: -550px;
+    top: 40px;
+  }
+
+  .plus {
+    left: 191px;
+    top: -16px;
+  }
+
+  .plus--busk {
+    left: 195px;
+    top: 75px;
+  }
+
+  .line--busket--1 {
+    width: 350px;
+    top: 320px;
+    left: 100px;
+  }
+
+  .line--busket--2 {
+    top: 50px;
+  }
+
+  .main--wrap--3 {
+    padding: 63px 0 70px 29px;
+  }
+
+  .main--wrap--4 {
+    padding: 52px 0 55px 29px;
+  }
+
+  .my--fotorama {
+    display: none;
+  }
+
+  .block--photo {
+    width: 100%;
+    position: static;
+  }
+
+  .purpure--block {
+    width: 116px;
+    height: 116px;
+    top: -58px;
+    left: 20px;
+  }
+
+  .photo--wrap--abs {
+    margin-left: 0;
+    padding: 87px 40px 63px 14px;
+  }
+
+  .photo--title {
+    padding-bottom: 36px;
+  }
+
+  .photo--text {
+    width: 100%;
+    padding: 0 0 33px 3px;
+  }
+
+  .line--photo {
+    margin-left: 3px;
+  }
+
+  .photo--wrap--abs--2 {
+    margin-right: 0;
+    padding: 87px 40px 63px 14px;
+  }
+
+  .purpure--block--2 {
+    top: -58px;
+    left: 20px;
+    right: auto;
+  }
+
+  .block--photo {
+    height: 100%;
+  }
+
+  .logo--footer {
+    display: none;
+  }
+
+  .footer-link {
+    display: none;
+  }
+
+  .last--footer {
+    justify-content: center;
+    padding: 35px 0 35px 0;
+  }
+
+  .cutc {
+    margin-right: 0;
+  }
+
+  .for--main--block--footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .real--footer {
+    padding: 128px 0 0 0;
+  }
+
+  .block--whith--logo {
+    margin: 0 0 82px 0;
+  }
+
+  .span--main--title {
+    font-size: 80px;
+    line-height: 60px;
+    letter-spacing: 4.85px;
+  }
+
+  .text--footer {
+    line-height: 60px;
+    padding-left: 11px;
+  }
+
+  .line--foot {
+    top: 55px;
+    left: -20px;
+  }
+
+  .line--foot--2 {
+    left: 245px;
+  }
+
+  .block--whith--text--foot {
+    padding-bottom: 170px;
+  }
+
+  .main--footer--for--button--2 {
+    padding-bottom: 129px;
+  }
+}
+@media (max-width: 768px) {
+  .link--top--footer {
+    display: none;
+  }
+
+  .logo {
+    background-image: url(../images/logo320.png);
+    width: 137px;
+    height: 24px;
+    margin: 0 auto;
+  }
+
+  .top--footer {
+    padding-bottom: 141px;
+  }
+
+  .main--title {
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 1.76px;
+    padding-left: 0;
+  }
+
+  .main--title--2 {
+    letter-spacing: 1.6px;
+    padding-left: 55px;
+    padding-top: 25px;
+  }
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    order: 2;
+    padding-bottom: 20px;
+  }
+
+  .main--title-line {
+    left: 12%;
+    top: 65px;
+    height: 4px;
+    width: 250px;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .for--main--title {
+    padding-left: 0;
+    padding-bottom: 0;
+    margin: 0 auto;
+  }
+
+  .main--footer {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icon-apple {
+    font-size: 22px;
+    line-height: 22px;
+    left: 15px;
+    top: 7px;
+  }
+
+  .icon-android {
+    font-size: 20px;
+    line-height: 20px;
+    left: 15px;
+    top: 10px;
+  }
+
+  .apple--android--button {
+    padding: 12px 0 12px 40px;
+    font-size: 8px;
+    line-height: 8px;
+    letter-spacing: 0.4px;
+  }
+
+  .apple--button {
+    margin-right: 8px;
+    width: 50%;
+    max-width: 200px;
+  }
+
+  .android--button {
+    width: 50%;
+    max-width: 200px;
+  }
+
+  .link--nav {
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 21px;
+  }
+
+  .link--nav:first-child {
+    margin-left: 25px;
+  }
+
+  .link--nav--socer {
+    margin-left: 45px;
+  }
+
+  .main--footer--for--button {
+    padding-top: 118px;
+    padding-bottom: 45px;
+  }
+
+  .white--title {
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    margin-right: 15%;
+  }
+
+  .main--wrap--white {
+    margin-left: 0;
+    padding: 25px 0 180px 9px;
+  }
+
+  .for--span-and-number {
+    display: none;
+  }
+
+  .span--after-number {
+    display: none;
+  }
+
+  .span--text {
+    display: none;
+  }
+
+  .for--wrap--purpure {
+    display: none;
+  }
+
+  .main--wrap--gray {
+    display: none;
+  }
+
+  .png--footballer {
+    background-image: url(../images/320--foot.png);
+    width: 192px;
+    height: 281px;
+  }
+
+  .footballer {
+    left: 60px;
+    top: 100px;
+  }
+
+  .plus {
+    left: -5px;
+    top: 15px;
+  }
+
+  .line--footballer {
+    width: 280px;
+    height: 3px;
+    top: 120px;
+    left: -55px;
+  }
+
+  .png--busketballer {
+    background-image: url(../images/320--busk.png);
+    width: 302px;
+    height: 248px;
+  }
+
+  .busketballer {
+    right: -5px;
+    top: 100px;
+  }
+
+  .plus--busk {
+    left: 40px;
+    top: 0;
+  }
+
+  .line--busket--1 {
+    width: 180px;
+    height: 3px;
+    left: 20px;
+    top: 163px;
+  }
+
+  .line--busket--2 {
+    width: 120px;
+    height: 3px;
+    left: 179px;
+    top: 63px;
+  }
+
+  .main--wrap--white {
+    width: auto;
+  }
+
+  .my--fotorama {
+    display: block;
+    min-width: 310px;
+  }
+
+  .number--fotorama {
+    font-size: 14px;
+    display: inline;
+  }
+
+  .span--after-number--fotorama {
+    font-size: 28px;
+    letter-spacing: 1.4px;
+    display: inline;
+  }
+
+  .span--text--fotorama {
+    color: #000000;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.75px;
+    display: inline;
+  }
+
+  .for--span-and-number--fotorama {
+    padding-bottom: 20px;
+    display: flex;
+  }
+
+  .first--slide, .third--slide {
+    padding: 70px 5px 30px 8px;
+  }
+
+  .second--slide {
+    padding: 55px 5px 30px 8px;
+  }
+
+  .fotorama__nav__frame.fotorama__active .fotorama__dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #5c3caf;
+    border: none;
+    position: static;
+  }
+
+  .fotorama__dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #d8d8d8;
+    border: none;
+    position: static;
+    margin-bottom: 27px;
+    margin-top: 14px;
+  }
+
+  .fotorama__nav--dots .fotorama__nav__frame {
+    height: auto;
+  }
+
+  .second--slide--second--fotorama {
+    padding: 70px 5px 30px 8px;
+  }
+
+  .purpure--block {
+    width: 70px;
+    height: 70px;
+  }
+
+  .span--numer--photo {
+    font-size: 14px;
+    letter-spacing: 0.7px;
+  }
+
+  .photo--title {
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 1.4px;
+    padding-bottom: 23px;
+  }
+
+  .photo--text {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    padding-bottom: 23px;
+    width: 80%;
+  }
+
+  .photo--wrap--abs {
+    padding: 35px 0 51px 9px;
+  }
+
+  .photo--text--2 {
+    width: 95%;
+  }
+
+  .photo--text--3 {
+    width: 95%;
+  }
+
+  .block--photo {
+    height: 40%;
+  }
+
+  .span--main--title {
+    font-size: 34px;
+    line-height: 35px;
+    letter-spacing: 1.7px;
+  }
+
+  .text--footer {
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.75px;
+  }
+
+  .line--foot {
+    width: 90px;
+    top: 32px;
+    left: -11px;
+  }
+
+  .line--foot--2 {
+    width: 160px;
+    top: 40px;
+    left: 99px;
+  }
+
+  .text--footer {
+    padding-left: 0;
+  }
+
+  .real--footer {
+    padding: 97px 0 0 0;
+  }
+
+  .block--whith--logo {
+    background-image: url(../images/73-78.png);
+    width: 73px;
+    height: 78px;
+    margin-bottom: 57px;
+  }
+
+  .block--whith--text--foot {
+    padding-bottom: 72px;
+  }
+
+  .main--footer--for--button--2 {
+    padding-top: 0;
+    padding-bottom: 127px;
+  }
+
+  .icon--footer {
+    font-size: 22px;
+  }
+
+  .last--footer {
+    padding: 19px 0 13px 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
